@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WatcHGoods - Contact Us</title>
+    <link rel="stylesheet" href="./../styles/contact.css">
+    <link rel="icon" href="./../assets/logowatchgoods-removebg-preview.png">
+    <script src="./../script/validation.js" defer></script>
+</head>
+<body>
+
+    <div>
+        <nav class="navbar">
+            <div class="navbarlogo">
+                <a href="home.html">
+                    <img class="logoHeader" src="./../assets/logowatchgoods-removebg-preview.png" alt="WatcHGoods logo">  
+            </div>
+
+            <ul>
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="./product.html">Products</a></li>
+                <li><a href="./locations.html">Locations</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <main>
+        <div class="contentBox">
+            <div class="gambarKiri">
+                <img src="./../assets/gambarcontact.png" alt="">
+            </div>
+            
+            <div class="contactBox">
+                <div class="logo">
+                    <img src="./../assets/logowatchgoodsblck-removebg-preview.png" alt="">
+                </div>
+
+                <div class="text">
+                    <p>SEND US A MESSAGE</p>
+                </div>
+
+                <div>
+                    <form class="form" action="home.html">
+                        <label for="username">Name</label>
+                        <div>
+                            <span id="usernameError"></span>
+                        </div>
+                        <input type="text" name="" id="username">
+                        
+
+                        <label for="useremail">Email</label>
+                        <div>
+                            <span id="userEmailError"></span>
+                        </div>
+                        <input type="email" name="" id="useremail">
+
+
+                        <label for="country">Country</label>
+                        <div>
+                            <span id="userCountryError"></span>
+                        </div>
+                        <input type="text" name="" id="country">
+
+
+
+                        <label for="message">Message</label>
+                        <div>
+                            <span id="userMessageError"></span>
+                        </div>
+                        <input type="text" name="" id="message">
+                        
+                        <label for="useragree">Do you want to receive a copy?</label>
+                        <div>
+                            <span id="userAgreeError"></span>
+                        </div>
+                        <input type="checkbox" name="" id="useragree">
+
+                        <button class="but" type="submit" onclick="validasi(event)">SUBMIT</button>
+                    </form>
+                </div>
+
+
+            </div>
+        </div>
+    </main>
+</body>
+</html>

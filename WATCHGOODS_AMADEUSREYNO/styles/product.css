@@ -1,0 +1,192 @@
+@font-face {
+    font-family: "Jost";
+    src: url(./../fonts/Jost/Jost-VariableFont_wght.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Noto sans";
+    src: url(./../fonts/Noto_Sans/NotoSans-Regular.ttf) format("truetype");
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif, 'Noto Sans', sans-serif;  
+
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 79px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    padding: 0px 56px;
+    background-color: black;
+    z-index: 100;
+}
+
+.navbar ul li{
+    display: inline-block;
+    list-style: none;
+    margin: -10px 30px;
+}
+
+.navbar ul li a{
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.navbar ul li a:hover{
+    color: #ff4f4f;
+}
+
+.logoHeader{
+    width: 86px;
+    height: 86px;
+}
+
+
+footer{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    height: 230px;
+}
+
+.footerContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.footerNav ul li{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 2px;
+}
+
+.footerNav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16x;
+    letter-spacing: 0.05em;
+}
+
+.footerNav ul li a:hover{
+    color: #ff4f4f;
+
+}
+
+.footerlogo img{
+    height: 200px;
+    width: 200px;
+}
+
+.rights{
+    max-width: 150px;
+}
+.rights p{
+    color: white;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.main-content{
+    display: block;
+    flex: 1;
+    top: 79px;
+}
+
+.judul{
+    margin: 20px;
+}
+
+.judul p{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    color: black;
+}
+
+.judul .kategori{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+    margin-left: 20px;
+}
+
+
+.bracket{
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+    box-shadow:  0 2px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px 0px;
+}
+
+.brandtitle img{
+    width: 200px;
+}
+
+.gridbox{
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.product{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 0px;
+}
+.product img{
+    padding-bottom: 10px;
+    height: 243px;
+}
+
+.product h5{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+}
+.product h3{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+}

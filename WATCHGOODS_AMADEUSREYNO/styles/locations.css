@@ -1,0 +1,184 @@
+@font-face {
+    font-family: "Jost";
+    src: url(./../fonts/Jost/Jost-VariableFont_wght.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Noto sans";
+    src: url(./../fonts/Noto_Sans/NotoSans-Regular.ttf) format("truetype");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif, 'Noto Sans', sans-serif;  
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 79px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    padding: 0px 56px;
+    background-color: black;
+    z-index: 100;
+}
+
+.navbar ul li{
+    display: inline-block;
+    list-style: none;
+    margin: -10px 30px;
+}
+
+.navbar ul li a{
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.navbar ul li a:hover{
+    color: #ff4f4f;
+}
+
+.logoHeader{
+    width: 86px;
+    height: 86px;
+}
+
+footer{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    height: 230px;
+}
+
+.footerContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.footerNav ul li{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 2px;
+}
+
+.footerNav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16x;
+    letter-spacing: 0.05em;
+}
+
+.footerNav ul li a:hover{
+    color: #ff4f4f;
+
+}
+
+.footerlogo img{
+    height: 200px;
+    width: 200px;
+}
+
+.rights{
+    max-width: 150px;
+}
+.rights p{
+    color: white;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.allcontain{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    align-items: center;
+
+}
+.itemLeft{
+    
+    width: 35vw;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex: 1;
+
+}
+
+.itemLeft div{
+    margin-bottom: 30px;
+}
+.locationNya{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.title p{
+    margin-top: 30px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 58px;
+}
+.lochead{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.loccontent{
+    max-width: 400px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+}
+.mapBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.mapBox iframe{
+    width: 90vw;
+    height: 90vh;
+}
